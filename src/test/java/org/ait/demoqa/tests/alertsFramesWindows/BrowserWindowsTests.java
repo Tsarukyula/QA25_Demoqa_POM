@@ -1,16 +1,17 @@
-package org.ait.demoqa.tests;
+package org.ait.demoqa.tests.alertsFramesWindows;
 
 import org.ait.demoqa.pages.AlertsPage;
 import org.ait.demoqa.pages.BrowserWindowsPage;
 import org.ait.demoqa.pages.HomePage;
 import org.ait.demoqa.pages.SidePanel;
+import org.ait.demoqa.tests.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class BrowserWindowsTests extends TestBase{
+public class BrowserWindowsTests extends TestBase {
 
     @BeforeMethod
     public void precondition() {
