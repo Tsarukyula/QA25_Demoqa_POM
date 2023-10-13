@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T12:34:21 MESZ" name="Quick" finished-at="2023-10-12T12:34:37 MESZ" duration-ms="15834">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T12:34:21 MESZ" name="Quick" finished-at="2023-10-12T12:34:37 MESZ" duration-ms="15834">
+      <class name="org.ait.demoqa.tests.bookStore.LoginPageTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.ait.demoqa.tests.bookStore.LoginPageTests@2f8dad04]" started-at="2023-10-12T12:34:21 MESZ" name="init" finished-at="2023-10-12T12:34:32 MESZ" duration-ms="10488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startLogger(java.lang.reflect.Method)[pri:0, instance:org.ait.demoqa.tests.bookStore.LoginPageTests@2f8dad04]" started-at="2023-10-12T12:34:32 MESZ" name="startLogger" finished-at="2023-10-12T12:34:32 MESZ" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ait.demoqa.tests.bookStore.LoginPageTests.loginPositiveTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startLogger -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:org.ait.demoqa.tests.bookStore.LoginPageTests@2f8dad04]" started-at="2023-10-12T12:34:32 MESZ" name="precondition" finished-at="2023-10-12T12:34:34 MESZ" duration-ms="2025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="loginPositiveTest()[pri:0, instance:org.ait.demoqa.tests.bookStore.LoginPageTests@2f8dad04]" started-at="2023-10-12T12:34:34 MESZ" name="loginPositiveTest" finished-at="2023-10-12T12:34:36 MESZ" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositiveTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.ait.demoqa.tests.bookStore.LoginPageTests@2f8dad04]" started-at="2023-10-12T12:34:36 MESZ" name="tearDown" finished-at="2023-10-12T12:34:37 MESZ" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.ait.demoqa.tests.bookStore.LoginPageTests -->
+    </test> <!-- Quick -->
+  </suite> <!-- Quick -->
+</testng-results>
